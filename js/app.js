@@ -8,7 +8,7 @@ const loadData = async (city) => {
 };
 
 const displayData = (data) => {
-	setData("city-name", name);
+	setData("city-name", data.name);
 	setData("temp", data.main.temp);
 	setData("lead", data.weather[0].main);
 
